@@ -8,7 +8,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const videos = [
-   
+    
     "videos/hero-2.mp4",
     "videos/hero-3.mp4",
     "videos/hero-4.mp4",
@@ -72,7 +72,6 @@ const Hero = () => {
     })
 
     return (
-        
         <div className="relative h-dvh w-screen overflow-x-hidden ">
 
             {/* ================= VIDEO FRAME (CLIPPED CONTAINER) ================= */}
